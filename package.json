@@ -1,0 +1,16 @@
+{
+  "name": "sukun-cafe",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Responsive bilingual café ordering concept for Sukun Café in Kuwait.",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/dev-server.mjs src",
+    "check": "node scripts/check.mjs",
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/dev-server.mjs dist"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
